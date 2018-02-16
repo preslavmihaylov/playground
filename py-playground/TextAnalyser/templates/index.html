@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Text Analyser</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h3 class="text-muted">Text Analyser</h3>
+        </div>
+
+        <div class="jumbotron">
+            <h1>Input the text to be analysed here</h1>
+            <p class="lead"></p>
+            <textarea rows="10" cols="100" id="inputText"></textarea>
+            <p>
+                <a class="btn btn-lg btn-success" id="analyseBtn" role="button">Analyse text</a>
+                <a class="btn btn-lg btn-success" id="exportToCSV" role="button">Export to CSV</a>
+            </p>
+        </div>
+
+        <h1>Results</h1>
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <div class="jumbotron">
+                    <h3>Syllable Count</h3>
+                    <p id="syllable_count">None</p>
+                </div>
+
+                <div class="jumbotron">
+                    <h3>Lexicon Count</h3>
+                    <p id="lexicon_count">None</p>
+                </div>
+
+                <div class="jumbotron">
+                    <h3>Sentence Count</h3>
+                    <p id="sentence_count">None</p>
+                </div>
+
+                <div class="jumbotron">
+                    <h3>Flesch Reading Ease Formula</h3>
+                    <p id="flesch_reading_ease">None</p>
+                </div>
+
+                <div class="jumbotron">
+                    <h3>Flesch Kincaid Grade</h3>
+                    <p id="flesch_kincaid_grade">None</p>
+                </div>
+
+                <div class="jumbotron">
+                    <h3>Dale Chall Readability Score</h3>
+                    <p id="dale_chall_readability_score">None</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="jumbotron">
+                    <h3>Gunning Fog</h3>
+                    <p id="gunning_fog">None</p>
+                </div>
+
+                <div class="jumbotron">
+                    <h3>Smog Index</h3>
+                    <p id="smog_index">None</p>
+                </div>
+
+                <div class="jumbotron">
+                    <h3>Automated Readability Index</h3>
+                    <p id="automated_readability_index">None</p>
+                </div>
+
+                <div class="jumbotron">
+                    <h3>Coleman Liau Index</h3>
+                    <p id="coleman_liau_index">None</p>
+                </div>
+
+                <div class="jumbotron">
+                    <h3>Linsear Write Formula</h3>
+                    <p id="linsear_write_formula">None</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; Preslav Mihaylov 2018</p>
+        </footer>
+
+        <script src="../static/js/jquery-3.3.1.min.js"></script>
+        <script src="../static/js/handlers.js"></script>
+    </div>
+</body>
+
+</html>
