@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FizzBuzz", "LimeAcademyAdmission\01.FizzBuzz.csproj", "{E9895D56-9FAB-4B32-A52F-DDC48BF89341}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FizzBuzz", "01.FizzBuzz\01.FizzBuzz.csproj", "{E9895D56-9FAB-4B32-A52F-DDC48BF89341}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Braces", "02.Braces\02.Braces.csproj", "{38B9C0C7-9C3C-4802-98F9-61690522D2E4}"
 EndProject
